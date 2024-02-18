@@ -120,7 +120,7 @@ function displayTodos() {
 	for (let i = 0; i < todos.length; i++) {
 		const item = todos[i];
 
-		const { itemEl } = createTodoElement(item);
+		const { itemEl } = create_Todo_element(item);
 
 		list.append(itemEl);
 	}
